@@ -1,30 +1,64 @@
 aid: getcloudapp-com
+
 name: Zight
+
 description: 'Zight is a technology company offering cloud-based solutions for managing and sharing digital assets. The platform enables users to upload, organize, and distribute files securely, with access controls, analytics, and integration capabilities. Zight simplifies digital asset management for businesses and individuals, supporting collaboration and secure sharing across devices and teams.'
+
 url: https://raw.githubusercontent.com/api-evangelist/getcloudapp-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
 - Cloud
 - Asset Management
 - File Sharing
 - Collaboration
-apis: []
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- bloomberg-beta
+
 common:
+- type: Hosts
+  url: hosts/getcloudapp-com-hosts.yml
 - type: DomainSecurity
   url: security/getcloudapp-com-domain-security.yml
 - type: Website
   url: https://getcloudapp.com
+
+apis: []
+
+x-backed-by:
+- bloomberg-beta
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-22'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://getcloudapp.com
+    status: null
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
