@@ -1,7 +1,6 @@
 aid: getcloudapp-com
 name: Zight
-description: 'Zight is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by bloomberg-beta) and added to the network as a stub for full-pipeline profiling.'
+description: 'Zight is a technology company offering cloud-based solutions for managing and sharing digital assets. The platform enables users to upload, organize, and distribute files securely, with access controls, analytics, and integration capabilities. Zight simplifies digital asset management for businesses and individuals, supporting collaboration and secure sharing across devices and teams.'
 url: https://raw.githubusercontent.com/api-evangelist/getcloudapp-com/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:vc-portfolio
@@ -12,6 +11,10 @@ created: '2026-10-21'
 modified: '2026-10-21'
 tags:
 - Company
+- Cloud
+- Asset Management
+- File Sharing
+- Collaboration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +24,7 @@ maintainers:
 x-backed-by:
 - bloomberg-beta
 common:
+- type: DomainSecurity
+  url: security/getcloudapp-com-domain-security.yml
 - type: Website
   url: https://getcloudapp.com
